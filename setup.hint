@@ -1,0 +1,6 @@
+category: Perl Gnome
+requires: cygwin glib2 perl
+sdesc: "Perl bindings for glib-2.0"
+ldesc: "This module provides perl access to Glib and GLib's GObject 
+libraries.  GLib is a portability and utility library; GObject provides 
+a generic type system with inheritance and a powerful signal system."
