@@ -6,17 +6,17 @@ type system with inheritance and a powerful signal system.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  glib2-2.12.9-1
-  perl-5.8.7-5
+  glib2-2.14.4-1
+  perl-5.8.8-4
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.10-1
+  cygport-0.3.7-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.7-5
+  perl-5.8.8-4
   perl-ExtUtils-Depends-0.205-1
   perl-ExtUtils-PkgConfig-1.07-1
 
@@ -29,15 +29,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Glib-1.144-X-src.tar.bz2
+  unpack perl-Glib-1.162-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Glib-1.144-X.cygport all
+  cygport ./perl-Glib-1.162-X.cygport all
 
 This will create:
-  /usr/src/perl-Glib-1.144-X-src.tar.bz2
-  /usr/src/perl-Glib-1.144-X.tar.bz2
+  /usr/src/perl-Glib-1.162-X-src.tar.bz2
+  /usr/src/perl-Glib-1.162-X.tar.bz2
 
 -------------------------------------------
 
@@ -86,13 +86,13 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Glib/Glib.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Glib/Glib.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Glib/libGlib.dll.a
-  /usr/share/doc/Cygwin/perl-Glib-1.144.README
-  /usr/share/doc/perl-Glib-1.144/AUTHORS
-  /usr/share/doc/perl-Glib-1.144/ChangeLog
-  /usr/share/doc/perl-Glib-1.144/LICENSE
-  /usr/share/doc/perl-Glib-1.144/NEWS
-  /usr/share/doc/perl-Glib-1.144/README
-  /usr/share/doc/perl-Glib-1.144/TODO
+  /usr/share/doc/Cygwin/perl-Glib-1.162.README
+  /usr/share/doc/perl-Glib-1.162/AUTHORS
+  /usr/share/doc/perl-Glib-1.162/ChangeLog
+  /usr/share/doc/perl-Glib-1.162/LICENSE
+  /usr/share/doc/perl-Glib-1.162/NEWS
+  /usr/share/doc/perl-Glib-1.162/README
+  /usr/share/doc/perl-Glib-1.162/TODO
   /usr/share/man/man3/Glib.3pm.gz
   /usr/share/man/man3/Glib.BookmarkFile.3pm.gz
   /usr/share/man/man3/Glib.Boxed.3pm.gz
@@ -126,6 +126,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.162-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 1.144-1 -----
 Version bump.
