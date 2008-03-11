@@ -5,20 +5,18 @@ GLib is a portability and utility library; GObject provides a generic
 type system with inheritance and a powerful signal system.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  glib2-2.14.4-1
-  perl-5.8.8-4
+  cygwin-1.5.25-7
+  glib2-2.14.6-1
+  perl-5.10.0-3
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.7-1
+  cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.8-4
-  perl-ExtUtils-Depends-0.205-1
-  perl-ExtUtils-PkgConfig-1.07-1
+  perl-ExtUtils-Depends-0.205-2
+  perl-ExtUtils-PkgConfig-1.10-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -29,70 +27,69 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Glib-1.162-X-src.tar.bz2
+  unpack perl-Glib-1.164-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Glib-1.162-X.cygport all
+  cygport ./perl-Glib-1.164-X.cygport all
 
 This will create:
-  /usr/src/perl-Glib-1.162-X-src.tar.bz2
-  /usr/src/perl-Glib-1.162-X.tar.bz2
+  /usr/src/perl-Glib-1.164-X-src.tar.bz2
+  /usr/src/perl-Glib-1.164-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Glib.sh
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/BookmarkFile.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Boxed.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/CodeGen.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Error.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Flags.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/GenPod.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Install/Files.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Install/doctypes
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Install/gperl.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Install/gperl_marshal.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Install/typemap
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/KeyFile.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Log.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/MainLoop.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/MakeHelper.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Markup.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Object.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Object/Subclass.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Param/Boolean.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Param/Double.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Param/Enum.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Param/Flags.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Param/Int.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Param/Int64.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Param/String.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Param/UInt.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Param/UInt64.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Param/Unichar.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/ParamSpec.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/ParseXSDoc.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Signal.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Type.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/Utils.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/devel.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/index.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/version.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Glib/xsapi.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Glib/.packlist
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Glib/Glib.bs
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Glib/Glib.dll
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Glib/libGlib.dll.a
-  /usr/share/doc/Cygwin/perl-Glib-1.162.README
-  /usr/share/doc/perl-Glib-1.162/AUTHORS
-  /usr/share/doc/perl-Glib-1.162/ChangeLog
-  /usr/share/doc/perl-Glib-1.162/LICENSE
-  /usr/share/doc/perl-Glib-1.162/NEWS
-  /usr/share/doc/perl-Glib-1.162/README
-  /usr/share/doc/perl-Glib-1.162/TODO
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/BookmarkFile.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Boxed.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/CodeGen.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Error.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Flags.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/GenPod.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Install/doctypes
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Install/gperl.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Install/gperl_marshal.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Install/typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/KeyFile.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Log.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/MainLoop.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/MakeHelper.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Markup.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Object.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Object/Subclass.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/Boolean.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/Double.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/Enum.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/Flags.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/Int.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/Int64.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/String.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/UInt.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/UInt64.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/Unichar.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/ParamSpec.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/ParseXSDoc.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Signal.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Type.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Utils.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/devel.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/index.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/version.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/xsapi.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/Glib.bs
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/Glib.dll
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/libGlib.dll.a
+  /usr/share/doc/Cygwin/perl-Glib-1.164.README
+  /usr/share/doc/perl-Glib-1.164/AUTHORS
+  /usr/share/doc/perl-Glib-1.164/ChangeLog
+  /usr/share/doc/perl-Glib-1.164/LICENSE
+  /usr/share/doc/perl-Glib-1.164/NEWS
+  /usr/share/doc/perl-Glib-1.164/README
+  /usr/share/doc/perl-Glib-1.164/TODO
   /usr/share/man/man3/Glib.3pm.gz
   /usr/share/man/man3/Glib.BookmarkFile.3pm.gz
   /usr/share/man/man3/Glib.Boxed.3pm.gz
@@ -121,11 +118,13 @@ Files included in the binary package:
   /usr/share/man/man3/Glib.index.3pm.gz
   /usr/share/man/man3/Glib.version.3pm.gz
   /usr/share/man/man3/Glib.xsapi.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/Glib.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.164-1 -----
+Version bump, built for Perl 5.10.
 
 ----- version 1.162-1 -----
 Version bump for GNOME 2.20.
