@@ -80,9 +80,7 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/version.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/xsapi.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/.packlist
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/Glib.bs
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/Glib.dll
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/libGlib.dll.a
   /usr/share/doc/Cygwin/perl-Glib-1.164.README
   /usr/share/doc/perl-Glib-1.164/AUTHORS
   /usr/share/doc/perl-Glib-1.164/ChangeLog
