@@ -15,7 +15,7 @@ Build requirements:
   cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-ExtUtils-Depends-0.205-2
+  perl-ExtUtils-Depends-0.300-1
   perl-ExtUtils-PkgConfig-1.10-1
 
 Canonical homepage:
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Glib-1.164-X-src.tar.bz2
+  unpack perl-Glib-1.182-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Glib-1.164-X.cygport all
+  cygport ./perl-Glib-1.182-X.cygport all
 
 This will create:
-  /usr/src/perl-Glib-1.164-X-src.tar.bz2
-  /usr/src/perl-Glib-1.164-X.tar.bz2
+  /usr/src/perl-Glib-1.182-X-src.tar.bz2
+  /usr/src/perl-Glib-1.182-X.tar.bz2
 
 -------------------------------------------
 
@@ -81,13 +81,12 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/xsapi.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/Glib.dll
-  /usr/share/doc/Cygwin/perl-Glib-1.164.README
-  /usr/share/doc/perl-Glib-1.164/AUTHORS
-  /usr/share/doc/perl-Glib-1.164/ChangeLog
-  /usr/share/doc/perl-Glib-1.164/LICENSE
-  /usr/share/doc/perl-Glib-1.164/NEWS
-  /usr/share/doc/perl-Glib-1.164/README
-  /usr/share/doc/perl-Glib-1.164/TODO
+  /usr/share/doc/perl-Glib-1.182/AUTHORS
+  /usr/share/doc/perl-Glib-1.182/ChangeLog
+  /usr/share/doc/perl-Glib-1.182/LICENSE
+  /usr/share/doc/perl-Glib-1.182/NEWS
+  /usr/share/doc/perl-Glib-1.182/README
+  /usr/share/doc/perl-Glib-1.182/TODO
   /usr/share/man/man3/Glib.3pm.gz
   /usr/share/man/man3/Glib.BookmarkFile.3pm.gz
   /usr/share/man/man3/Glib.Boxed.3pm.gz
@@ -121,7 +120,7 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.164-1 -----
+----- version 1.182-1 -----
 Version bump, built for Perl 5.10.
 
 ----- version 1.162-1 -----
