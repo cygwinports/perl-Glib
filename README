@@ -5,14 +5,14 @@ GLib is a portability and utility library; GObject provides a generic
 type system with inheritance and a powerful signal system.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  glib2-2.14.6-1
+  cygwin-1.5.25-11
+  glib2-2.16.3-1
   perl-5.10.0-3
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
+  binutils-20080523-1
+  cygport-0.3.11-1
   gcc-core-3.4.4-3
   make-3.81-1
   perl-ExtUtils-Depends-0.300-1
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Glib-1.182-X-src.tar.bz2
+  unpack perl-Glib-1.183-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Glib-1.182-X.cygport all
+  cygport ./perl-Glib-1.183-X.cygport all
 
 This will create:
-  /usr/src/perl-Glib-1.182-X-src.tar.bz2
-  /usr/src/perl-Glib-1.182-X.tar.bz2
+  /usr/src/perl-Glib-1.183-X-src.tar.bz2
+  /usr/src/perl-Glib-1.183-X.tar.bz2
 
 -------------------------------------------
 
@@ -81,12 +81,12 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/xsapi.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/Glib.dll
-  /usr/share/doc/perl-Glib-1.182/AUTHORS
-  /usr/share/doc/perl-Glib-1.182/ChangeLog
-  /usr/share/doc/perl-Glib-1.182/LICENSE
-  /usr/share/doc/perl-Glib-1.182/NEWS
-  /usr/share/doc/perl-Glib-1.182/README
-  /usr/share/doc/perl-Glib-1.182/TODO
+  /usr/share/doc/perl-Glib-1.183/AUTHORS
+  /usr/share/doc/perl-Glib-1.183/ChangeLog
+  /usr/share/doc/perl-Glib-1.183/LICENSE
+  /usr/share/doc/perl-Glib-1.183/NEWS
+  /usr/share/doc/perl-Glib-1.183/README
+  /usr/share/doc/perl-Glib-1.183/TODO
   /usr/share/man/man3/Glib.3pm.gz
   /usr/share/man/man3/Glib.BookmarkFile.3pm.gz
   /usr/share/man/man3/Glib.Boxed.3pm.gz
@@ -119,6 +119,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.183-1 -----
+Version bump.
 
 ----- version 1.182-1 -----
 Version bump, built for Perl 5.10.
