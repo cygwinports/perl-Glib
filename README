@@ -6,14 +6,14 @@ type system with inheritance and a powerful signal system.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  libglib2.0_0-2.18.4-1
+  libglib2.0_0-2.20.0-1
   perl-5.10.0-5
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
-  cygport-0.4.3-1
-  gcc-core-3.4.4-3
+  cygport-0.9.5-1
+  gcc-core-3.4.4-999
   make-3.81-1
   perl-ExtUtils-Depends-0.301-1
   perl-ExtUtils-PkgConfig-1.12-1
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Glib-1.201-X-src.tar.bz2
+  unpack perl-Glib-1.220-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Glib-1.201-X.cygport all
+  cygport ./perl-Glib-1.220-X.cygport all
 
 This will create:
-  /usr/src/perl-Glib-1.201-X-src.tar.bz2
-  /usr/src/perl-Glib-1.201-X.tar.bz2
+  /usr/src/perl-Glib-1.220-X-src.tar.bz2
+  /usr/src/perl-Glib-1.220-X.tar.bz2
 
 -------------------------------------------
 
@@ -60,6 +60,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Markup.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Object.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Object/Subclass.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/OptionContext.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/OptionGroup.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/Boolean.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/Double.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/Param/Enum.pod
@@ -81,12 +83,12 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Glib/xsapi.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Glib/Glib.dll
-  /usr/share/doc/perl-Glib-1.201/AUTHORS
-  /usr/share/doc/perl-Glib-1.201/ChangeLog
-  /usr/share/doc/perl-Glib-1.201/LICENSE
-  /usr/share/doc/perl-Glib-1.201/NEWS
-  /usr/share/doc/perl-Glib-1.201/README
-  /usr/share/doc/perl-Glib-1.201/TODO
+  /usr/share/doc/perl-Glib/AUTHORS
+  /usr/share/doc/perl-Glib/ChangeLog
+  /usr/share/doc/perl-Glib/LICENSE
+  /usr/share/doc/perl-Glib/NEWS
+  /usr/share/doc/perl-Glib/README
+  /usr/share/doc/perl-Glib/TODO
   /usr/share/man/man3/Glib.3pm.gz
   /usr/share/man/man3/Glib.BookmarkFile.3pm.gz
   /usr/share/man/man3/Glib.Boxed.3pm.gz
@@ -101,6 +103,8 @@ Files included in the binary package:
   /usr/share/man/man3/Glib.Markup.3pm.gz
   /usr/share/man/man3/Glib.Object.3pm.gz
   /usr/share/man/man3/Glib.Object.Subclass.3pm.gz
+  /usr/share/man/man3/Glib.OptionContext.3pm.gz
+  /usr/share/man/man3/Glib.OptionGroup.3pm.gz
   /usr/share/man/man3/Glib.Param.Boolean.3pm.gz
   /usr/share/man/man3/Glib.Param.Double.3pm.gz
   /usr/share/man/man3/Glib.Param.Enum.3pm.gz
@@ -125,66 +129,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.201-1 -----
-Version bump.
-
------ version 1.200-1 -----
-Version bump for GNOME 2.24.
-
------ version 1.183-1 -----
-Version bump.
-
------ version 1.182-1 -----
-Version bump, built for Perl 5.10.
-
------ version 1.162-1 -----
-Version bump for GNOME 2.20.
-
------ version 1.144-1 -----
-Version bump.
-
------ version 1.143-1 -----
-Version bump.
-
------ version 1.141-1 -----
-Version bump.
-
------ version 1.140-1 -----
-Version bump, built for glib-2.12.
-
------ version 1.120-1 -----
-Version bump, built for glib-2.8.
-Source package is now cygport-based.
-
------ version 1.105-1 -----
-Version bump.
-
------ version 1.104-1 -----
-Version bump.
-
------ version 1.103-1 -----
-Version bump.
-
------ version 1.102-1 -----
-Version bump.
-
------ version 1.100-1 -----
-New upstream release for GNOME 2.12.
-
------ version 1.082-1 -----
-New upstream release for GNOME 2.10.
-
------ version 1.062-1 -----
-New upstream release, built for perl-5.8.6; new build script.
-
------ version 1.061-1 -----
-New upstream release; see ChangeLog for details.
-
------ version 1.043-2 -----
-Rebuilt for perl-5.8.5.
-
------ version 1.043-1 -----
-Initial release for glib2 from the Cygwin net distribution.
+----- version 1.220-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
