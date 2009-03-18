@@ -6,6 +6,7 @@ type system with inheritance and a powerful signal system.
 
 Runtime requirements:
   cygwin-1.5.25-15
+  libgcc1-4.3.2-2
   libglib2.0_0-2.20.0-1
   perl-5.10.0-5
 
@@ -13,7 +14,7 @@ Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
   cygport-0.9.5-1
-  gcc-core-3.4.4-999
+  gcc4-core-4.3.2-2
   make-3.81-1
   perl-ExtUtils-Depends-0.301-1
   perl-ExtUtils-PkgConfig-1.12-1
