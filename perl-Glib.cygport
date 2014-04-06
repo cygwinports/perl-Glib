@@ -1,7 +1,7 @@
 inherit gtk2-perl
 
 NAME="perl-Glib"
-VERSION=1.301
+VERSION=1.304
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl glib-2.0 bindings"
