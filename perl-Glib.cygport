@@ -10,3 +10,5 @@ libraries. GLib is a portability and utility library; GObject provides a
 generic type system with inheritance and a powerful signal system.  Together
 these libraries are used as the foundation for many of the libraries that make
 up the GNOME environment, and are used in many unrelated projects."
+
+REQUIRES_EXCLUDE_FROM="${PERL_VENDORARCH}/Glib/MakeHelper.pm"
